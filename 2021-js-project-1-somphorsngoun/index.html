@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Project</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <div class="start">
+        <!-- <h1>Welcome to the movie</h1> -->
+        <Button id="show">Show Movie</Button>
+        <Button id="hide">Hide Movie</Button>
+    </div>
+    <div class="main">
+        <div class="input">
+            <form id="form">
+                <labe>Title of movie:</label>
+                <input type="text" id="title"><br>
+    
+                <label>Director</label>
+                <input type="text" id="Author"><br>
+    
+                <label>Date</label>
+                <input type="date" id="date"><br>
+    
+                <label>Type of movie</label>
+                <select name="type" id="type">
+                    <option disabled="disabled" selected="selected">Choose...</option>
+                    <option value="Dramas">Dramas</option>
+                    <option value="Historical">Historical</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Horror">Horror</option>
+                </select><br>
+
+                <label>Price</label>
+                <input type="number" id="price" placeholder="price.."><br>
+
+                <label>Images movie</label>
+                <input type="color" id="color">
+                <button id="Cancel">Cancel</button>
+                <button id="ok">OK</button>
+                <button id="Add">Add Movie</button>
+            </form>
+ 
+            
+        </div>
+        <div class="info">
+                <span>Title of movie: <span id="titleOfMovie"></span></span><br>
+                <span>Director of movie: <span id="directorOfMovie"></span></span><br>
+                <span>Date post publice in online: <span id="dateOfMovie"></span></span><br>
+                <span>Price of movie: <span id="priceOfMovie"></span></span><br>
+                <span>Kind of movie: <span id="typeOfMovie"></span></span><br>
+                <span>Description of movie: <span id="des">The best movie in 2021 a film that has a lot of exciting events in it, that is intended to make you laugh fun and horror.</span></span>
+        </div>
+        <div class="ruler"></div>
+        <div class="resource">
+            <div class="searchName">
+                <input type="search" id="inputsearch" placeholder="search...">
+                <button id="search">Search</button>
+                <input type="radio" name="radioP">Search by price<br>
+            </div>
+
+            <div class="searchprice">
+                <label for="minNumber">Min Price:</label>
+                <input type="number" id="minNumber">
+
+                <label for="maxNumber">Max Price</label>
+                <input type="number" id="maxNumber">
+                <button id="searchPrice">Search</button>
+                <input type="radio" name="radioN">Search by Name<br>
+                <br>
+            </div>
+            <button id="sort">Sort List</button>
+
+            <nav>
+                <ul>
+                    <li id="all">All</li>
+                    <li id="drama">Dramas</li>
+                    <li id="history">Historical</li>
+                    <li id="comedy">Comedy</li>
+                    <li id="horror">Horror</li>
+                    
+                </ul>
+            </nav>
+
+            <div class="movieList"></div>
+
+        </div>
+    </div>
+</body>
+</html>

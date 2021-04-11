@@ -1,0 +1,200 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url('https://image.shutterstock.com/image-vector/online-cinema-art-movie-watching-260nw-586719869.jpg');
+    background-size: cover;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    display: none;
+    margin-top: 10px;
+
+}
+.input {
+    width: 40%;
+    display: flex;
+    
+}
+form{
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.info {
+    width: 30%;
+    padding: 20px;
+    font-size: 20px;
+    height: 60vh;
+    background: rgba(237, 240, 243, 0.267);
+    /* box-shadow: gray; */
+    color: white;
+    line-height: 45px;
+    margin: auto;
+    border-radius: 20px;
+    /* margin-left: -30%; */
+    display: none; 
+}
+
+#titleOfMovie,
+#directorOfMovie,
+#priceOfMovie,
+#typeOfMovie,
+#des,
+#dateOfMovie{
+    color: orange;
+}
+
+#title,
+#date,
+#Author,
+#price {
+    padding: 10px;
+    font-size: 20px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+#type {
+    padding: 10px;
+    font-size: 20px;
+    width: 64%;
+    margin-bottom: 20px;
+
+}
+#Author{
+    margin-left: 43px;
+}
+#date{
+    margin-left: 65px;
+    justify-content: center;
+}
+#color{
+    width: 63%;
+    margin-bottom: 20px;
+}
+#price{
+    margin-left: 60px;
+}
+#Cancel,
+#Add,
+#ok {
+    width: 39%;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    padding: 15px;
+}
+#Cancel {
+    background: orange;
+}
+#Add,
+#ok,
+#sort {
+    background: rgb(17, 119, 236);
+}
+#ok{
+    display: none;
+} 
+#sort{
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+.ruler {
+    width: 2px;
+    height: 80vh;
+    background: orange;
+    border-radius: 5px;
+}
+.resource{
+    width: 50%;
+    margin: 20px;
+}
+#inputsearch{
+    padding: 5px;
+    width: 70%;
+    font-size: 16px;
+    /* outline: orange; */
+}
+#search,
+#searchPrice {
+    padding: 10px;
+    background: rgba(33, 117, 226, 0.952);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+#minNumber,
+#maxNumber{
+    padding: 10px;
+    width: 15%;
+}
+.searchprice{
+    display: none;
+    margin-bottom: -20px;
+}
+
+p{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.fa-pencil,
+#coast,
+#authorName,
+#typeOfmovie{
+    margin-right: 30px;
+}
+.fa-times{
+    margin-right: 10px;
+}
+#Name {
+    font-size: 20px;
+}
+nav{
+    background-color: rgb(148, 133, 110);
+    border-radius: 10px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li:hover{
+    background: rgb(93, 207, 26);
+}
+.start{
+    text-align: center;
+    margin: 15px;
+}
+
+#hide,
+#show {
+    padding: 15px;
+    width: 20%;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: orangered;
+}
+
